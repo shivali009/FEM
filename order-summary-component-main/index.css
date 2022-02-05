@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+
+body {
+    font-family: 'Red Hat Display', serif;
+    margin: 0;
+    line-height: 1.7;
+    text-align: center;
+}
+
+p {
+    color: #757575ba;
+    font-weight: bold;
+    margin: 0;
+}
+
+span {
+    color: #414141;
+    font-weight: bold;
+}
+
+.container {
+    background-image: url('images/pattern-background-mobile.svg');
+    background-repeat: round no-repeat;
+    background-color: #d6e1ffcc;
+    height: 100vh;
+    display: flex;
+}
+
+.sub-container {
+    background-color: #ffffff;
+    margin: auto;
+    width: 90%;
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+.sub-sub-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-sub-container>* {
+    margin-bottom: 20px;
+}
+.sub-sub-container h3{
+    margin: 0 0 15px;
+}
+
+.sub-sub-container>a {
+    border-radius: 15px;
+    color: #fff;
+    padding: 15px;
+    background-color: #1e1fcd;
+    font-weight: bold;
+    box-shadow: 0px 7px 12px 5px #ccc;
+}
+
+.sub-sub-container>button {
+    border: none;
+    background: #fff;
+    font-size: 16px;
+}
+.link{
+    text-decoration: underline;
+    color: #1e1fcd;
+    font-weight: 700;
+}
+.a {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e0e9ff4d;
+    border-radius: 15px;
+    /* margin: 20px 0; */
+}
+a, button{
+    cursor: pointer;
+}
+.a img {
+    margin-right: 20px;
+}
+
+.a div {
+    flex-grow: 1;
+    text-align: left;
+}
+
+@media (min-width: 600px) {
+    .container {
+        background-image: url('images/pattern-background-desktop.svg');
+    }
+
+    .sub-container {
+        width: 30%;
+    }
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
