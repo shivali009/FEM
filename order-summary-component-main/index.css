@@ -32,6 +32,7 @@ span {
     width: 90%;
     border-radius: 22px;
     overflow: hidden;
+    box-shadow: -2px 8px 10px 0px #ccc;
 }
 
 .sub-sub-container {
